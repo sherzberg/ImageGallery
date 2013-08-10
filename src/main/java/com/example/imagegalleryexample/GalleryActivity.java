@@ -18,6 +18,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+import com.franlopez.imagegalleryexample.R;
+
 public class GalleryActivity extends Activity implements
 		AdapterView.OnItemSelectedListener, ViewSwitcher.ViewFactory {
 

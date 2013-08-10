@@ -1,13 +1,8 @@
 package com.example.imagegalleryexample;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.view.Display;
-import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -17,6 +12,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
+
+import com.franlopez.imagegalleryexample.R;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Class to control event of menu, open and close using a static methods 
